@@ -26,4 +26,7 @@ server.use(bodyParser.urlencoded({ extended: true }))
 // Routes
 
 server.get('/', routes.getTimeline)
+server.get('/projects', routes.getProjectPage)
 server.get('/downloadCV', routes.getCV)
+server.get('/about', routes.getAbout)
+server.get('/contact', routes.getContact)

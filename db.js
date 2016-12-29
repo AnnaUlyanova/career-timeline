@@ -4,9 +4,14 @@ var config = require('./knexfile')[environment]
 var connection = require('knex')(config)
 
 module.exports = {
-  getCareerSteps: getCareerSteps
+  getCareerSteps: getCareerSteps,
+  getProjects: getProjects
 }
 
 function getCareerSteps() {
   return connection ('career-steps')
+}
+
+function getProjects() {
+  return connection ('projects')
 }

@@ -136,16 +136,40 @@
     margin-top: 5px;
 }
 
-#timeline {
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
   text-align: center;
+}
+
+#timeline-header {
+  text-align: center !important;
+  padding-top: 30px;
+}
+
+#main-navigation {
+  background: #0b3c5d;
+}
+
+header a {
+  color: #fff !important;
+}
+
+header li a:hover {
+  color: #1d2731 !important;
+  background: #328CC1 !important;
 }
 
 footer {
   /*background: #091736;*/
-  background: #1d2731;
+  background: #0b3c5d;
   color: #fff;
   height: 40px;
   text-align: center;
+  width: 100%;
 }
 
 footer li {
@@ -159,7 +183,6 @@ footer li {
 footer a li:hover {
   color: #5985e3;
 }
-
 
 @media (max-width: 767px) {
     ul.timeline:before {
