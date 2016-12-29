@@ -1,0 +1,30 @@
+{
+  "name": "career-timeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "node-debug index",
+    "knex": "knex",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaUlyanova/career-timeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaUlyanova/career-timeline/issues"
+  },
+  "homepage": "https://github.com/AnnaUlyanova/career-timeline#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "knex": "^0.12.6",
+    "nodemon": "^1.11.0",
+    "sqlite3": "^3.1.8"
+  }
+}

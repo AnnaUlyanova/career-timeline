@@ -1,0 +1,20 @@
+<div class="page-header">
+        <h1 id="timeline">Career Timeline</h1>
+</div>
+
+<ul class="timeline">
+  {{#each steps}}
+  <li {{#if type}} class="timeline-inverted" {{/if}}>
+        <div {{#if type}} class="timeline-badge info" {{else}} class="timeline-badge" {{/if}}></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{title}}</h4>
+              <p><small class="text-muted">{{dates}}</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>{{description}}</p>
+            </div>
+          </div>
+        </li>
+    {{/each}}
+</ul>
