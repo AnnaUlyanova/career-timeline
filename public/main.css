@@ -186,6 +186,15 @@ header li a:hover {
 .page-header {
   margin: 5px;
 }
+.page-header h1 {
+  font-weight: bolder;
+  font-size: 3em;
+}
+.page-header p {
+  text-align: center;
+  margin: 15px;
+  font-size: 0.8em;
+}
 
 .projects {
   margin-bottom: 30px;
@@ -203,6 +212,19 @@ header li a:hover {
 .projects:hover img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+.projects h3 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.projects-descr {
+  font-size: 1.3em;
+}
+.projects-tech {
+  font-size: 1em;
+  font-style: italic;
 }
 
 footer {

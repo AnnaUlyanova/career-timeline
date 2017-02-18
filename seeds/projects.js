@@ -8,29 +8,29 @@ exports.seed = function (knex, Promise) {
         knex('projects').insert({
           id: 1,
           name: 'goFLat',
-          tech: 'Client-side rendering application. React.js.',
-          description: 'Final group project',
+          tech: 'React, Redux, Webpack, Axios, Node.js, Express server, SQLite3, Knex.js, PostgreSQL.',
+          description: 'Final group project, summary of the skills learned during the bootcamp.',
           project_url: 'http://www.goflat.co.nz/',
           image_url: '/img/goflat.png'}),
         knex('projects').insert({
           id: 2,
-          name: 'Great adventure hiking in New Zealand',
-          tech: 'Client-side rendering application. React.js.',
-          description: 'Personal project',
+          name: 'New Zealand Great Adventure Hiking',
+          tech: 'React, Webpack, Superagent, Node.js, Express server, SQLite3, Knex.js, PostgreSQL, Google Maps API.',
+          description: 'Personal project with client-side and server-side rendering. You can check map of NZ\'s 9 great walks, activities on the particular walk, suggestions what to pack, see current alerts, add notes.',
           project_url: 'https://nz-hiking-adventure.herokuapp.com/',
           image_url: '/img/nz-hiking.png'}),
         knex('projects').insert({
           id: 3,
           name: 'Espiral Dev Academy Blog | Phase 0',
-          tech: 'Server-side rendering application. Node.js,  Handlebars.js, Knex.js.',
-          description: 'Blog created during pre-bootcamp phase',
+          tech: 'Node.js, Express server, SQLite3, Knex.js, PostgreSQL.',
+          description: 'Server-side rendering application. Blog created during 9 weeks of the pre-bootcamp phase.',
           project_url: 'https://eda-blog.herokuapp.com/',
           image_url: '/img/eda-blog.png'}),
         knex('projects').insert({
           id: 4,
           name: 'Map of New Zealand\'s 9 Great Walks',
-          tech: 'Front-end application. HTML5, CSS3, Javascript, jQuery.',
-          description: 'FIrst project created at the end of the pre-bootcamp phase',
+          tech: 'HTML5, CSS3, Javascript, jQuery.',
+          description: 'Front-end application. First project created at the end of the pre-bootcamp phase.',
           project_url: 'https://annaulyanova.github.io/nz-great-walks-map',
           image_url: '/img/nz-map.png'})
       ])
