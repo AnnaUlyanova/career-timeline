@@ -1,11 +1,17 @@
-<br>
-<br>
-{{#each projects}}
-  {{name}}
-  <a href="{{image_url}}"><img src='{{image_url}}' width="200px"></a>
-{{/each}}
+<div class="page-header">
+        <h1 id='projects-header'>Projects</h1>
+</div>
 
-<br>
-<br>
-//Group Projects
-//Personal Projects
+
+
+  {{#each projects}}
+    <div class="row projects">
+        <div class="col-md-4">
+          <a href="{{project_url}}"><img src='{{image_url}}' width="250px"></a>
+        </div>
+        <div class="col-md-4 push-md-3">
+          <h3>{{name}}</h3>
+          <p>{{description}}</p>
+        </div>
+    </div>
+  {{/each}}

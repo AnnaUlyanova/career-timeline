@@ -14,7 +14,8 @@
     "url": "git+https://github.com/AnnaUlyanova/career-timeline.git"
   },
   "keywords": [
-    "handlebars-helper-isActive"
+    "handlebars-helper-isActive",
+    "handlebars-helper-md"
   ],
   "author": "",
   "license": "ISC",
@@ -30,6 +31,7 @@
     "sqlite3": "^3.1.8"
   },
   "devDependencies": {
-    "handlebars-helper-isActive": "*"
+    "handlebars-helper-isActive": "*",
+    "handlebars-helper-md": "*"
   }
 }

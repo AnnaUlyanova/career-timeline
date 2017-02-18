@@ -145,7 +145,7 @@
   text-align: center;
 }
 
-#timeline-header {
+#timeline-header, #projects-header {
   text-align: center !important;
   padding-top: 30px;
 }
@@ -163,25 +163,37 @@ header li a:hover {
   background: #328CC1 !important;
 }
 
+.projects {
+  margin-bottom: 30px;
+}
+
+.projects img {
+  border:1px solid #a9a9a9;
+  padding: 5px;
+  -webkit-box-shadow:0px 0px 20px 5px #ababab ;
+  -moz-box-shadow:0px 0px 20px 5px #ababab ;
+  box-shadow:0px 0px 20px 5px #ababab ;
+}
+
+.projects:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 footer {
   /*background: #091736;*/
   background: #0b3c5d;
   color: #fff;
-  height: 40px;
+  height: 50px;
   text-align: center;
   width: 100%;
 }
 
-footer li {
+footer .logo {
   display: inline-block;
-  color: #fff;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 10px;
-}
-
-footer a li:hover {
-  color: #5985e3;
 }
 
 @media (max-width: 767px) {

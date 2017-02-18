@@ -18,7 +18,8 @@ function getTimeline (req, res) {
   .then(function(steps) {
     var data = {
       title: "Anna Ulyanova | Career Timeline",
-      steps: steps
+      steps: steps,
+      active: true
     }
     res.render('timeline', data)
   })
@@ -35,8 +36,9 @@ function getProjectPage (req, res) {
   db.getProjects()
     .then(function(projects) {
     var data = {
-      title: "Anna Ulyanova | Projects",
-      projects: projects
+      title: "Projects",
+      projects: projects,
+      active: true
     }
     res.render('projects', data)
   })
