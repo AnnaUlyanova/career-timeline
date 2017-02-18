@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/AnnaUlyanova/career-timeline#readme",
   "dependencies": {
+    "body-parser": "^1.16.1",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
     "knex": "^0.12.6",
@@ -35,8 +36,5 @@
     "pg": "^6.1.2",
     "sqlite3": "^3.1.8"
   },
-  "devDependencies": {
-    "handlebars-helper-isActive": "*",
-    "handlebars-helper-md": "*"
-  }
+  "devDependencies": {}
 }
