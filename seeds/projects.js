@@ -23,7 +23,7 @@ exports.seed = function (knex, Promise) {
           git: 'https://github.com/AnnaUlyanova/nz-hiking'}),
         knex('projects').insert({
           id: 3,
-          name: 'Espiral Dev Academy Blog | Phase 0',
+          name: 'Enspiral Dev Academy Blog | Phase 0',
           tech: 'Node.js, Express server, Hanldebars.js, SQLite3, Knex.js, PostgreSQL.',
           description: 'Server-side rendering application. Blog created during 9 weeks of the pre-bootcamp phase.',
           project_url: 'https://eda-blog.herokuapp.com/',

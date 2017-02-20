@@ -29,7 +29,7 @@ function getTimeline (req, res) {
 }
 
 function getCV (req, res) {
-  res.download('./public/CV.pdf')
+  res.download('./public/AnnaUlyanova_CV_Web_Developer.pdf')
 }
 
 function getProjectPage (req, res) {
