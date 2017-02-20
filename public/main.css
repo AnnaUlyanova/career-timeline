@@ -129,11 +129,13 @@ body {
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    font-weight: bolder;
 }
 
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
+    font-size: 1.1em;
 }
 
 .timeline-body > p + p {

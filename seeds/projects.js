@@ -9,7 +9,7 @@ exports.seed = function (knex, Promise) {
           id: 1,
           name: 'goFLat',
           tech: 'React, Redux, Webpack, Axios, Node.js, Express server, SQLite3, Knex.js, PostgreSQL.',
-          description: 'Final group project, summary of the skills learned during the bootcamp.',
+          description: 'Final group project at the bootcamp, created with the team of 6 graduates.',
           project_url: 'http://www.goflat.co.nz/',
           image_url: '/img/goflat1.png',
           git: 'https://github.com/AnnaUlyanova/flatme'}),
