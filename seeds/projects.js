@@ -16,7 +16,7 @@ exports.seed = function (knex, Promise) {
         knex('projects').insert({
           id: 2,
           name: 'New Zealand Great Adventure Hiking',
-          tech: 'React, Webpack, Superagent, Node.js, Express server, Hanldebars.js, SQLite3, Knex.js, PostgreSQL, Google Maps API.',
+          tech: 'React, Webpack, Superagent, Node.js, Express server, Handlebars.js, SQLite3, Knex.js, PostgreSQL, Google Maps API.',
           description: 'Personal project with client-side and server-side rendering. You can check map of NZ\'s 9 great walks, activities on the particular walk, suggestions what to pack, see current alerts, add notes.',
           project_url: 'https://nz-hiking-adventure.herokuapp.com/',
           image_url: '/img/nz-hiking1.png',
@@ -24,7 +24,7 @@ exports.seed = function (knex, Promise) {
         knex('projects').insert({
           id: 3,
           name: 'Enspiral Dev Academy Blog | Phase 0',
-          tech: 'Node.js, Express server, Hanldebars.js, SQLite3, Knex.js, PostgreSQL.',
+          tech: 'Node.js, Express server, Handlebars.js, SQLite3, Knex.js, PostgreSQL.',
           description: 'Server-side rendering application. Blog created during 9 weeks of the pre-bootcamp phase.',
           project_url: 'https://eda-blog.herokuapp.com/',
           image_url: '/img/eda-blog1.png',
