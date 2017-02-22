@@ -22,7 +22,7 @@ exports.seed = function(knex, Promise) {
           id: 3,
           title: 'Auckland University of Technology',
           dates: 'February 2013 – December 2013',
-          description: 'Master of service-oriented computing',
+          description: 'Master of Service-Oriented Computing',
           logo: '/img/aut.png'}),
         knex('career-steps').insert({
           id: 4,
